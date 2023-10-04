@@ -35,19 +35,6 @@ Welcome to Eventos, your comprehensive calendar web application powered by React
 
 ## Technologies Used
 
-### Frontend
-
-- **React (Vite)**: A powerful framework for building interactive user interfaces.
-- **React Router (v6)**: Efficient client-side routing for seamless navigation.
-- **Redux Toolkit**: State management made simple and effective.
-- **Axios**: Making HTTP requests to your backend.
-- **Fullcalendar**: Integrating a feature-rich calendar into your application.
-- **Tailwind CSS**: A modern utility-first CSS framework for sleek styling.
-- **Mantine UI**: A collection of React components and hooks for a delightful UI.
-- **RRule**: Handling event recurrence with ease.
-- **Vitest**: A testing library for ensuring your frontend components are robust.
-- **ESLint**: Keeping your code clean and free of errors.
-
 ### Backend
 
 - **Express.js**: Building a robust and performant backend server.
@@ -61,25 +48,6 @@ Welcome to Eventos, your comprehensive calendar web application powered by React
 
 1. Node version: `v18.12`
 2. Npm version: `v8.19.2`
-
-### Frontend
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/odht82/calendar-app && cd calendar-app
-   ```
-2. Install dependencies:
-   ```
-   npm i
-   ```
-3. Build the frontend:
-   ```
-   npm run build
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
 
 ### Backend
 
@@ -103,13 +71,8 @@ Welcome to Eventos, your comprehensive calendar web application powered by React
 
 ---
 
+### **Other Repository:**
 
-
-### **Repositories:**
-
-[BackEnd Repository](https://github.com/odht82/calendar-app-api "Backend repo")
-
-[FrontEnd Repository
-](https://github.com/odht82/calendar-app "Frontend Eventos")
+[FrontEnd Repository](https://github.com/odht82/calendar-app "Frontend Eventos")
 
 ---
