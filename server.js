@@ -9,6 +9,7 @@ const {
   app: { port, cors_origin }
 } = require("./config/env")
 const userRoutes = require("./routes/userRoutes")
+const eventRoutes = require("./routes/eventRoutes")
 const PORT = port || 8000;
 
 app.use(
@@ -31,6 +32,7 @@ app.use(express.urlencoded({ extended: false }));
 
 //Routes
 app.use("/api/users", userRoutes);
+app.use("/api/events", eventRoutes);
 
 app.get("/", (req, res) => {
   res.status(200).json({ message: "Welcome to the event event" });
