@@ -8,6 +8,7 @@ const { errorHandler } = require("./middleware/errorMiddleware");
 const {
   app: { port, cors_origin }
 } = require("./config/env")
+const userRoutes = require("./routes/userRoutes")
 const PORT = port || 8000;
 
 app.use(
@@ -27,6 +28,9 @@ var cors_options = {
 app.use(cors(cors_options));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+
+//Routes
+app.use("/api/users", userRoutes);
 
 app.get("/", (req, res) => {
   res.status(200).json({ message: "Welcome to the event event" });
